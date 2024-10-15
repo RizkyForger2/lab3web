@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Lanjutan</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Membuat List, Table dan Form</legend>
+    <ul>
+        <li>Jaringan Komputer</li>
+        <li>Sistem Multimedia</li>
+        <li>Basis Data</li>
+        <li>Sistem Operasi</li>
+    </ul>
+    <hr>
+    <ol type="A" start="D">
+        <li>Pemrograman Web</li>
+        <li>Sistem Informasi</li>
+        <li>Rekayasa Perangkat Lunak</li>
+    </ol>
+    <hr>
+    <ul>
+        <li>Pemrograman Web</li>
+        <li>Sistem Informasi</li>
+        <li>Rekayasa Perangkat Lunak</li>
+    </ul>
+    <hr>
+    <ul style="list-style-image: url(img/ser.jpg);">
+        <li>Pemrograman Web</li>
+        <li>Sistem Informasi</li>
+        <li>Rekayasa Perangkat Lunak</li>
+    </ul>
+    <hr>
+    <dl>
+        <dt>Mata Kuliah</dt>
+        <dd>Pemrograman Web</dd>
+        <dd>Sistem Informasi</dd>
+        <dd>Rekayasa Perangkat Lunak</dd>
+    </dl>
+    <hr>
+    <ul>
+        <li>Makanan
+         <ol>
+            <li>Nasi Padang</li>
+            <li>Ayam Bakar</li>
+         </ol>
+        </li>
+            <li>Minuman
+         <ol>
+            <li>Jus Mangga</li>
+            <li>Es Teh</li>
+         </ol>
+        </li>
+    </ul>
+    <hr>
+    <table border="1">
+        <tr>
+            <td>Baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+        </tr>
+        <tr>
+            <td>Baris 2 kolom 1</td>
+            <td>baris 2 kolom 2</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+            <td colspan="2">Baris 1 kolom 1</td>
+        </tr>
+        <tr>
+            <td>Baris 2 kolom 1</td>
+            <td>baris 2 kolom 2</td>
+        </tr>
+        <tr>
+            <td>Baris 3 kolom 1</td>
+            <td>baris 3 kolom 2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Baris 4 kolom 1</td>
+            <td>baris 4 kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris 5 kolom 2</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Login</legend>
+        <p>
+            <label for="uname">Username</label>
+            <input type="text" id="uname" name="username">
+        </p>
+        <p>
+            <label for="passwd">Password</label>
+            <input type="password" id="passwd" name="password">
+        </p>
+            <p><input type="submit" value="Login"></p>
+        </fieldset>
+    </form>
+ </fieldset>
+ <br><br>
+<fieldset>
+        <legend>Langkah-langkah Praktikum</legend>
+    <section id="order-list">
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Pemrograman Web</li>
+            <li>Sistem Informasi</li>
+            <li>Basis Data 2</li>
+        </ol>
+    </section>
+    
+    <section id="unorder-list">
+        <h2>Unordered List</h2>
+        <ul type="square">
+            <li>Jaringan Komputer</li>
+            <li>Struktur Data</li>
+            <li>Algoritma &amp; Pemrograman</li>
+        </ul>
+    </section>
+
+    <section id="unorder-list">
+        <h2>Description List</h2>
+        <dl>
+        <dt>Fakultas Teknik</dt>
+            <dd>Teknik Industri</dd>
+            <dd>Teknik Informatika</dd>
+            <dd>Teknik Lingkungan</dd>
+        <dt>Fakultas Ekonomi dan Bisnis</dt>
+            <dd>Akuntansi</dd>
+            <dd>Manajemen</dd>
+            <dd>Bisnis Digital</dd>
+        </dl>
+    </section>
+
+    <h1>
+        Membuat Table
+    </h1>
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+  
+<hr>
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td rowspan="3">Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik Lingkungan</td>
+                </tr>
+        </tbody>
+     </table>
+      
+<hr>
+<form action="proses.php" method="post">
+    <fieldset>
+        <legend>Data Pelanggan</legend>
+        <p>
+            <label for="nama">Nama</label>
+            <input type="text"
+             id="nama" name="nama">
+        </p>
+        <p>
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" 
+            cols="20" rows="4"></textarea>
+        </p>
+        <p>
+            <label>Jenis Kelamin</label>
+            <input id="jk_l" type="radio" name="kelamin" 
+            value="L" />
+            <label for="jk_l">Laki-laki</label>
+            <input id="jk_p" type="radio" name="kelamin" 
+            value="P" />
+            <label for="jk_p">Perempuan</label>
+        </p>
+        <p>
+            <input type="submit" value="Login">
+        </p>
+    </fieldset>
+    <style>
+                form p > label {
+            display: inline-block;
+            width: 100px;
+        }
+
+        form input[type="text"], 
+        form textarea {
+            border: 1px solid #197a43;
+        }
+
+        form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #4c00ff;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
+</form>
+
+
+<hr>
+<fieldset>
+                <legend>Dropdown menu dan listbox dengan multiple selection.</legend>
+                <br>
+            
+                <label for="dropdownMenu">dropdown:</label>
+                <select id="dropdownMenu" name="dropdownMenu">
+                    <option value="Javascript">Javascript</option>
+                    <option value="Php">Php</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                </select>
+                <br><br>
+
+
+                <label for="listBox">Multiple list:</label>
+                <select id="listBox" name="listBox[]" multiple size="5">
+                    <option value="Python">Python</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Java">Java</option>
+                    <option value="Php">Php</option>
+                    <option value="C#">C#</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+<!---->
+</body>
+</html>
