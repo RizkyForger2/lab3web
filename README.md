@@ -2,7 +2,7 @@
 
 
 
-Tambahkan ordered list (daftar berurutan) menggunakan tag <ol> seperti berikut:
+Tambahkan ordered list (daftar berurutan) menggunakan tag <.ol> seperti berikut:
 
 
 ![Screenshot 2024-10-14 153144](https://github.com/user-attachments/assets/7b6fd3d4-262e-4115-b783-47cc12648d71)
@@ -11,38 +11,38 @@ Tambahkan ordered list (daftar berurutan) menggunakan tag <ol> seperti berikut:
 
 
 
-Setelah ordered list, tambahkan unordered list (daftar tidak berurutan) dengan tag <ul> seperti ini:
+Setelah ordered list, tambahkan unordered list (daftar tidak berurutan) dengan tag <.ul> seperti ini:
 
 
 ![Screenshot 2024-10-14 153236](https://github.com/user-attachments/assets/5d1bcae2-4214-44d1-8472-9b332f8ba630)
 <hr>
-3.Membuat Description List:
+3. Membuat Description List:
 
 
 
-Setelah unordered list, tambahkan description list menggunakan tag <dl>:
+Setelah unordered list, tambahkan description list menggunakan tag <.dl>:
 
 
 ![Screenshot 2024-10-14 153302](https://github.com/user-attachments/assets/1b13d6de-844e-4bbf-be81-d0138234b0d7)
 <hr>
-5.  
+4.  
 
 ![Screenshot 2024-10-14 153424](https://github.com/user-attachments/assets/0f9169fa-e5b5-4645-9e89-b7eb1de82bd3)
 <hr>
-6. 
+5. 
 
 ![Screenshot 2024-10-14 153545](https://github.com/user-attachments/assets/7e89e81f-69aa-471a-9ba0-81fb186a3720)
 <hr>
-7. 
+6. 
 
 ![Screenshot 2024-10-14 154136](https://github.com/user-attachments/assets/4099f957-7314-453f-808b-d8b4b52a26ff)
 <hr>
 
-5. Membuat Dropdown Menu:
+7. Membuat Dropdown Menu:
 
 Gunakan tag <select> untuk membuat dropdown menu dengan opsi-opsi di dalamnya. Tambahkan atribut name untuk memberikan nama pada field dropdown.
 
-- Membuat Listbox dengan Multiple Selection:
+8. Membuat Listbox dengan Multiple Selection:
 
 Gunakan tag <select> dengan atribut multiple untuk membuat listbox yang memungkinkan pengguna memilih lebih dari satu opsi. Atribut size menentukan berapa banyak opsi yang terlihat di layar.
 
