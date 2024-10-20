@@ -24,7 +24,7 @@ Setelah ordered list, tambahkan unordered list (daftar tidak berurutan) dengan t
 2. <dt.> (Definition Term): Elemen ini digunakan untuk mendefinisikan istilah yang ingin dijelaskan. Ini adalah istilah utama dalam daftar definisi.
 
 
-3. <dd.> (Definition Description): Elemen ini memberikan penjelasan atau deskripsi untuk istilah yang didefinisikan oleh <dt>. Ini berisi informasi lebih lanjut tentang istilah tersebut.
+3. <dd.> (Definition Description): Elemen ini memberikan penjelasan atau deskripsi untuk istilah yang didefinisikan oleh <dt.>. 
 
 
 ![Screenshot 2024-10-14 153302](https://github.com/user-attachments/assets/1b13d6de-844e-4bbf-be81-d0138234b0d7)
