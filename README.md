@@ -27,6 +27,26 @@ Setelah unordered list, tambahkan description list menggunakan tag <.dl>:
 <hr>
 4. 
 
+1. <table></table>:
+
+Digunakan untuk mendefinisikan keseluruhan tabel di dalam HTML.
+
+2. <thead></thead>:
+
+Digunakan untuk membungkus bagian header atau judul kolom dari tabel.
+
+3. <tbody></tbody>:
+
+Digunakan untuk membungkus bagian isi atau data dari tabel.
+
+4. <tr></tr>:
+
+Digunakan untuk mendefinisikan satu baris dalam tabel.
+
+5. <td></td>:
+
+Digunakan untuk mendefinisikan satu sel data dalam tabel.
+
 ![Screenshot 2024-10-14 153424](https://github.com/user-attachments/assets/0f9169fa-e5b5-4645-9e89-b7eb1de82bd3)
 
 ![Screenshot 2024-10-14 153545](https://github.com/user-attachments/assets/7e89e81f-69aa-471a-9ba0-81fb186a3720)
