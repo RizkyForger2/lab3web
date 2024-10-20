@@ -60,13 +60,9 @@ Digunakan untuk mendefinisikan satu sel data dalam tabel.
 ![Screenshot 2024-10-14 154136](https://github.com/user-attachments/assets/4099f957-7314-453f-808b-d8b4b52a26ff)
 <hr>
 
-6. Membuat Dropdown Menu:
-
-Gunakan tag <select> untuk membuat dropdown menu dengan opsi-opsi di dalamnya. Tambahkan atribut name untuk memberikan nama pada field dropdown.
-
-7. Membuat Listbox dengan Multiple Selection:
-
-Gunakan tag <select> dengan atribut multiple untuk membuat listbox yang memungkinkan pengguna memilih lebih dari satu opsi. Atribut size menentukan berapa banyak opsi yang terlihat di layar.
+6 <select.>: Digunakan untuk membuat dropdown menu atau listbox. Dengan atribut name, Anda memberikan nama pada field untuk identifikasi saat formulir dikirim. Atribut multiple memungkinkan pemilihan lebih dari satu opsi.
+<br>
+<option.>: Mendefinisikan opsi dalam dropdown menu atau listbox. Atribut value dapat ditambahkan untuk menetapkan nilai yang akan dikirim saat opsi tersebut dipilih..
 
 ![Screenshot 2024-10-14 154222](https://github.com/user-attachments/assets/f0f7026d-5e7a-4495-8d85-90c937610604)
 
