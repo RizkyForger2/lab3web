@@ -25,24 +25,22 @@ Setelah unordered list, tambahkan description list menggunakan tag <.dl>:
 
 ![Screenshot 2024-10-14 153302](https://github.com/user-attachments/assets/1b13d6de-844e-4bbf-be81-d0138234b0d7)
 <hr>
-4.  
+4. 
 
 ![Screenshot 2024-10-14 153424](https://github.com/user-attachments/assets/0f9169fa-e5b5-4645-9e89-b7eb1de82bd3)
-<hr>
-5. 
 
 ![Screenshot 2024-10-14 153545](https://github.com/user-attachments/assets/7e89e81f-69aa-471a-9ba0-81fb186a3720)
 <hr>
-6. 
+5. 
 
 ![Screenshot 2024-10-14 154136](https://github.com/user-attachments/assets/4099f957-7314-453f-808b-d8b4b52a26ff)
 <hr>
 
-7. Membuat Dropdown Menu:
+6. Membuat Dropdown Menu:
 
 Gunakan tag <select> untuk membuat dropdown menu dengan opsi-opsi di dalamnya. Tambahkan atribut name untuk memberikan nama pada field dropdown.
 
-8. Membuat Listbox dengan Multiple Selection:
+7. Membuat Listbox dengan Multiple Selection:
 
 Gunakan tag <select> dengan atribut multiple untuk membuat listbox yang memungkinkan pengguna memilih lebih dari satu opsi. Atribut size menentukan berapa banyak opsi yang terlihat di layar.
 
