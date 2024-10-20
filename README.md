@@ -91,12 +91,14 @@ Di dalam elemen <style.>, buat aturan CSS yang mengatur tampilan label, input, d
 
 Aturan CSS dapat mencakup pengaturan lebar, border, warna latar belakang, warna teks, dan padding.
 
+
 ![Screenshot 2024-10-14 154136](https://github.com/user-attachments/assets/4099f957-7314-453f-808b-d8b4b52a26ff)
 <hr>
 
 6 <select.>: Digunakan untuk membuat dropdown menu atau listbox. Dengan atribut name, Anda memberikan nama pada field untuk identifikasi saat formulir dikirim. Atribut multiple memungkinkan pemilihan lebih dari satu opsi.
 <br>
 <option.>: Mendefinisikan opsi dalam dropdown menu atau listbox. Atribut value dapat ditambahkan untuk menetapkan nilai yang akan dikirim saat opsi tersebut dipilih..
+
 
 ![Screenshot 2024-10-14 154222](https://github.com/user-attachments/assets/f0f7026d-5e7a-4495-8d85-90c937610604)
 
