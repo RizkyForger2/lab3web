@@ -55,23 +55,48 @@ Digunakan untuk mendefinisikan satu sel data dalam tabel.
 
 ![Screenshot 2024-10-14 153545](https://github.com/user-attachments/assets/7e89e81f-69aa-471a-9ba0-81fb186a3720)
 <hr>
-5. 
+5. Membuat form
+
+Tambahkan elemen <form.> dengan atribut action yang menentukan tujuan pengolahan data dan method untuk menentukan cara pengiriman data (misalnya, POST).
+
+Di dalam <form.>, gunakan elemen <fieldset.> untuk mengelompokkan elemen form yang berkaitan dan <legend> untuk memberikan judul pada kelompok tersebut.
+
+
+4. Menambahkan input fields
+
+Tambahkan elemen <p.> untuk setiap elemen input agar terstruktur.
+
+Gunakan elemen <label.> untuk mendefinisikan nama dari setiap input field. Pastikan untuk menautkan label dengan input menggunakan atribut for.
+
+Tambahkan berbagai jenis input, seperti:
+
+<input type="text".> untuk input teks.
+
+<textarea> untuk area teks yang lebih besar.
+
+<input type="radio".> untuk pilihan jenis kelamin (Laki-laki atau Perempuan), pastikan untuk mengelompokkan radio button dengan nama yang sama.
+
+
+
+5. Menambahkan tombol kirim
+
+Tambahkan elemen <input type="submit".> untuk menyediakan tombol yang memungkinkan pengguna mengirimkan form.
+
+
+6. Menambahkan css untuk styling
+
+Untuk meningkatkan tampilan form, tambahkan elemen <style.> di dalam <head>.
+
+Di dalam elemen <style.>, buat aturan CSS yang mengatur tampilan label, input, dan tombol kirim.
+
+Aturan CSS dapat mencakup pengaturan lebar, border, warna latar belakang, warna teks, dan padding.
 
 ![Screenshot 2024-10-14 154136](https://github.com/user-attachments/assets/4099f957-7314-453f-808b-d8b4b52a26ff)
 <hr>
 
-6 <select.>:
-Digunakan untuk membuat dropdown menu atau multipelist (listbox dengan pemilihan ganda).
-
-Dengan atribut name,memberikan nama pada field untuk identifikasi saat formulir dikirim.
-
-Atribut multiple memungkinkan pengguna untuk memilih lebih dari satu opsi.
+6 <select.>: Digunakan untuk membuat dropdown menu atau listbox. Dengan atribut name, Anda memberikan nama pada field untuk identifikasi saat formulir dikirim. Atribut multiple memungkinkan pemilihan lebih dari satu opsi.
 <br>
-<option.>:
-
-Mendefinisikan opsi dalam dropdown menu atau multipelist.
-
-Atribut value dapat ditambahkan untuk menetapkan nilai yang akan dikirim saat opsi tersebut dipilih.
+<option.>: Mendefinisikan opsi dalam dropdown menu atau listbox. Atribut value dapat ditambahkan untuk menetapkan nilai yang akan dikirim saat opsi tersebut dipilih..
 
 ![Screenshot 2024-10-14 154222](https://github.com/user-attachments/assets/f0f7026d-5e7a-4495-8d85-90c937610604)
 
