@@ -82,7 +82,6 @@ Di dalam elemen <style.>, buat aturan CSS yang mengatur tampilan label, input, d
 
 Aturan CSS dapat mencakup pengaturan lebar, border, warna latar belakang, warna teks, dan padding.
 
-
 ![Screenshot 2024-10-14 154136](https://github.com/user-attachments/assets/4099f957-7314-453f-808b-d8b4b52a26ff)
 <hr>
 
